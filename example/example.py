@@ -14,12 +14,12 @@ GREEN_LED_PIN = 17
 BUTTON_PIN = 21
 
 # GCP parameters 
-project_id = 'thinking-land-244408'  # Your project ID.
-registry_id = 'my-registry'  # Your registry name.
-device_id = 'led-light'  # Your device name.
+project_id = 'home-pi-projects'  # Your project ID.
+registry_id = 'raspberry-registry'  # Your registry name.
+device_id = 'raspberry-pi'  # Your device name.
 private_key_file = 'rsa_private.pem'  # Path to private key.
 algorithm = 'RS256'  # Authentication key format.
-cloud_region = 'europe-west1'  # Project region.
+cloud_region = 'us-central1'  # Project region.
 ca_certs = 'roots.pem'  # CA root certificate path.
 mqtt_bridge_hostname = 'mqtt.googleapis.com'  # GC bridge hostname.
 mqtt_bridge_port = 8883  # Bridge port.
